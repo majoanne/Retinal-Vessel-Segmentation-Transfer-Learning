@@ -23,20 +23,11 @@ Run the code:
 python processing.py
 python unet.py
 python ablation.py
-# Run the web demo (requires models/ folder for weights and test_images_png/ for sample images)
+Run the web demo (requires models/ folder for weights and test_images_png/ for sample images)
 python appnewnew.py
 
 Key Results
 The best performance on FIVES test set is 0.8971 ± 0.1022 Dice coefficient (using green channel extraction + CLAHE, no TTA).
-
-Citation
-If you use this code, please cite our paper:
-@article{yourname2026retinal,
-title={Enhancing Generalization in Retinal Vessel Segmentation: A Transfer Learning Framework with Robust Domain Calibration},
-author={Your Name},
-journal={Your Journal},
-year={2026}
-}
 
 License
 This project is licensed under the MIT License.
